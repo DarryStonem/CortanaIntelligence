@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:CortanaDemo">
 
     <StackLayout Margin="20">
-        <Button Clicked="OnTakePhotoButtonClicked" Text="Take Photo and Analyze" />
+        <Button Clicked="OnTakePhotoButtonClicked" Text="¿Emocionado?" />
         <Image x:Name="image" />
         <ActivityIndicator x:Name="activityIndicator" IsRunning="False" />
         <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">

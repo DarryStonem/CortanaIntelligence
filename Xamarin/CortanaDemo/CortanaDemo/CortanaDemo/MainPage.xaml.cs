@@ -19,7 +19,6 @@ namespace CortanaDemo
         {
             InitializeComponent();
             emotionClient = new EmotionServiceClient(Constants.EmotionApiKey);
-            activityIndicator.IsRunning = false;
         }
 
         private async void OnTakePhotoButtonClicked(object sender, EventArgs e)
